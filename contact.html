@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>&#934 Contact</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/67a77a59c8.js"></script>
+</head>
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="navbar-container">
+      <div class="nav-title">
+        <h1 class="heading" id="title"><span><i class="fas fa-laptop-code"></i></span> Gerritt Black</h1>
+
+      </div>
+      <div class="link-wrapper">
+        <div class="nav-links">
+          <a class="pipe" href="./index.html">About</a>
+          <a class="pipe" href="./portfolio.html">Portfolio</a>
+          <a class="no-pipe" href="./contact.html">Contact</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-wrapper">
+    <div class="contact-container">
+      <h3 class="heading">Contact</h3>
+      <hr class="contact-hr">
+      <div class="contact-form">
+        <h4 class="form-heading">Name</h4>
+        <input type="text" name="" id="name-input" placeholder="Enter your name">
+        <h4 class="form-heading">Email</h4>
+        <input type="text" name="" id="email-input" placeholder="Enter a valid email">
+        <h4 class="form-heading">Message</h4>
+
+        <textarea id="message-box" placeholder="Enter a message"></textarea>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-wrapper">
+    <h5 class="copywright">copywright &copy</h5>
+  </div>
+
+</body>
+<script>
+  const submit = document.getElementById('submit')
+
+  submit.addEventListener('click', () => {
+    alert("Thank you for submitting this form. one day it may actually do something")
+  })
+</script>
+
+</html>
